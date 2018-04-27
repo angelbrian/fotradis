@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textView_clave_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clave Usuario"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_claveUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/button_ok_usuario"
+                android:layout_width="136dp"
+                android:layout_height="142dp"
+                android:layout_weight="0.14"
+                android:background="?android:attr/textCheckMark"
+                android:backgroundTint="@android:color/holo_green_light" />
+
+            <Button
+                android:id="@+id/button_cancelar_usuario"
+                android:layout_width="141dp"
+                android:layout_height="142dp"
+                android:background="@android:drawable/ic_menu_close_clear_cancel"
+                android:backgroundTint="@color/colorAccent" />
+        </LinearLayout>
+
+    </GridLayout>
+
+</LinearLayout>

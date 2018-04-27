@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textViewmu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuario:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_nombreUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textViewmu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha de caducación del servicio:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_caduca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textViewmu3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Servicio proporcionado:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_servicioOfrecido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textViewmu4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subio en:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_subioEn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/button_iniciarServicio"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"
+        android:background="?android:attr/textCheckMark"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textAlignment="center" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1095529979890",
+    "firebase_url": "https://fotradis.firebaseio.com",
+    "project_id": "fotradis",
+    "storage_bucket": "fotradis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095529979890:android:f5c168e809315320",
+        "android_client_info": {
+          "package_name": "com.fotradis.angelb_rrmz.fotradistest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095529979890-regodnvobk2a84irc9vjdblulfd8i7f2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fotradis.angelb_rrmz.fotradistest",
+            "certificate_hash": "2d16494e1342176efe2c797528e963f185d9f11f"
+          }
+        },
+        {
+          "client_id": "1095529979890-hnhbq27jf9aesf5qf5n47tr3io97t4au.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2qnWigzs7nnAZj7LuGMute1XAKjTYFFg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095529979890-hnhbq27jf9aesf5qf5n47tr3io97t4au.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
